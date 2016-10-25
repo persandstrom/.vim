@@ -1,5 +1,3 @@
-syntax on
-
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,6 +12,8 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
+syntax on
 
 set colorcolumn=81
 highlight ColorColumn ctermbg=darkgray
